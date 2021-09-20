@@ -1,0 +1,21 @@
+set dotenv-load := false
+
+build_erc20:
+    rm -rf contracts/build/erc20
+    mb-ethereum solc contracts/erc20/Token.sol --output contracts/build/erc20
+
+
+deploy_erc20:
+    mb-ethereum deploy mb-ethereum/deploy_erc20.yml -b
+
+nodes_mainnet:
+    mb-ethereum node mb-ethereum/nodes_mainnet.yml
+
+nodes_testnet:
+    mb-ethereum node mb-ethereum/nodes_testnet.yml
+
+accounts:
+    mb-ethereum account mb-ethereum/accounts.yml
+
+transfer_erc20:
+    mb-ethereum contract-tx mb-ethereum/transfer_erc20.yml -b

@@ -1,0 +1,8 @@
+private_key: "0x0fbd4d61143c113a7ad979dea0e7a1f9dcf7abc5a0c8ed6845115de390a29b6c" # for 0x1977Ae9f3e75e58A6e2aa174Bbcc990F61BE68d0
+gas: 1000000
+gas_price: 50 gwei
+contract_bin: "./contracts/build/erc20/Token.bin"
+constructor_types: "['string', 'uint256']"
+constructor_values: "['MB-TOKEN', 1000000000000000000000000]"
+chain_id: "97" # bsc testnet
+node: https://data-seed-prebsc-2-s1.binance.org:8545/

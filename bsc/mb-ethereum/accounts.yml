@@ -1,0 +1,10 @@
+addresses: |
+  0x1977Ae9f3e75e58A6e2aa174Bbcc990F61BE68d0
+  0x444B4962Ec9d1dEA5Aafb60f8FD09df7BDdBF7aE
+
+tokens: |
+    0x611BD8BabaBa3B2B83B44f364aa191e8169b8690
+
+nodes: |
+  https://data-seed-prebsc-1-s1.binance.org:8545/
+    https://data-seed-prebsc-2-s1.binance.org:8545/

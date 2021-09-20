@@ -1,0 +1,10 @@
+# Transfer
+contract: "0x611BD8BabaBa3B2B83B44f364aa191e8169b8690"
+private_key: "0x0fbd4d61143c113a7ad979dea0e7a1f9dcf7abc5a0c8ed6845115de390a29b6c"
+gas: 200000
+gas_price: "12 gwei"
+abi: "./contracts/build/erc20/Token.abi"
+function_name: transfer
+function_args: "['0x444B4962Ec9d1dEA5Aafb60f8FD09df7BDdBF7aE', 33300000000000000]"
+chain_id: "97" # bsc testnet
+node: https://data-seed-prebsc-2-s1.binance.org:8545/
